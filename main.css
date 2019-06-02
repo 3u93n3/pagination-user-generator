@@ -1,0 +1,34 @@
+body{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper{
+  width: 960px;
+  height: 100%;
+  box-shadow: 0 0 5px silver;
+  margin: 0 auto;
+}
+
+.pagination{
+  border: 1px solid black;
+  text-decoration: none;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin: 2px;
+}
+
+.pagination:hover{
+  background-color: black;
+  color: white;
+}
+
+#pagCen{
+  margin: auto 0;
+  text-align: center;
+}
